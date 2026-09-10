@@ -1,14 +1,16 @@
-Cuando un proceso está en la RAM es PREPARADO.
-Cuando un proceso está en la CPU está en EJECUCIÓN.
-Cuando un proceso está en la I/O está BLOQUEADO.
-Cuando un proceso no ha entrado ni a RAM o CPU, en el planificador de trabajos es NONATO.
-Cuando un proceso ha finalizado está CONCLUIDO.
-está en la I/O está BLOQUEADO.
+- Cuando un proceso está en la RAM es PREPARADO.
+- Cuando un proceso está en la CPU está en EJECUCIÓN.
+- Cuando un proceso está en la I/O está BLOQUEADO.
+- Cuando un proceso no ha entrado ni a RAM o CPU, en el planificador de trabajos es NONATO.
+- Cuando un proceso ha finalizado está CONCLUIDO.
+- Cuando el proceso está en la I/O está BLOQUEADO.
+
+# Diagramas de estado
 ![Alt text](estados_proceso.png)
 
-Un proceso es un programa activo.
+- Un proceso es un programa activo.
 
-Un proceso se dice que está en ejecución cuando está en CPU, si no se dice que está preparado.
+- Un proceso se dice que está en ejecución cuando está en CPU, si no se dice que está preparado.
 
 SO clasificado por ejecución de procesos:
 - Monoprgramación: Se ejecuta uno por uno. Espera a que termine el proceso anterior.
